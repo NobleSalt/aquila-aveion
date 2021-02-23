@@ -1,30 +1,30 @@
 <template>
   <div class="Home">
-    <h2 class="head">{{ userInfo.name }}</h2>
+    <h2 class="head">aquila aveion</h2>
     <div class="img">
       <img src="img/girl.png" alt="Girl with Orange" />
     </div>
     <div class="socials">
-      <a :href="'https://www.instagram.com/' + userInfo.social_media.instagram">
+      <a :href="'https://instagram.com/'">
         <i class="fab fa-instagram"></i>
       </a>
-      <a :href="'https://www.twitter.com/' + userInfo.social_media.twitter">
+      <a :href="'https://twitter.com/'">
         <i class="fab fa-twitter-square"></i>
       </a>
-      <a :href="'https://www.snapchat.com/add/' + userInfo.social_media.snapchat">
+      <a :href="'https://snapchat.com/add/'">
         <i class="fab fa-snapchat"></i>
       </a>
-      <a :href="'mailto:' + userInfo.social_media.email">
+      <a :href="'mailto:'">
         <i class="fas fa-envelope-square"></i>
       </a>
     </div>
 
     <div class="links">
       <a href="#" class="link">home</a>
-      <a href="#" class="link">about</a>
-      <a href="#" class="link im"><img src="img/model-hair.png" alt=""/></a>
-      <a href="#" class="link">gallery</a>
-      <a href="#" class="link">contact</a>
+      <a href="" class="link">about</a>
+      <a href="" class="link im"><img src="img/model-hair.png" alt=""/></a>
+      <a href="" class="link">gallery</a>
+      <a href="" class="link">contact</a>
     </div>
   </div>
 </template>
@@ -39,7 +39,7 @@ export default {
     })
   },
   created() {
-    this.$store.dispatch('GetUserInfo')
+    // this.$store.dispatch('GetUserInfo')
   }
 }
 </script>
