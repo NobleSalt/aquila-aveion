@@ -268,13 +268,16 @@ body {
   }
 }
 
-
 @media (max-width: 320px) {
   .Home {
     .links {
+      display: flex;
       bottom: 0rem;
       margin-bottom: 0;
       height: 100px;
+      padding: 0;
+      justify-content: space-around;
+      align-items: center;
 
       .link.im {
         background: transparent;
