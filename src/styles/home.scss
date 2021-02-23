@@ -244,3 +244,35 @@ body {
     }
   }
 }
+
+@media (max-width: 400px) {
+  .Home {
+    .links {
+      position: absolute;
+      width: 100%;
+      padding: 0 25%;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      bottom: 1rem;
+      color: white;
+      margin-bottom: -10px;
+      height: 100px;
+      // letter-spacing: .1rem;
+
+      .link.im {
+        background: transparent;
+
+        img {
+          display: none;
+          background: transparent;
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
