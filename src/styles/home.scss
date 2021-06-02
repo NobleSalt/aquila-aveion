@@ -28,7 +28,7 @@ body {
 
   &::after,
   &::before {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     content: '';
     width: 50%;
